@@ -180,8 +180,10 @@ class PocketOptionTrader:
 
             if trade_result['outcome'] == 'RETRY':
                 logger.warning(f"⚠️ Bağlantı xətasına görə Addım {step} təkrarlanacaq (Martingale addımı ARTIRILMIR).")
-                if callback_notify:
-                    await callback_notify("⚠️ <b>Şəbəkə bağlantısı bərpa olunur...</b> Ticarət 3 saniyəyə təkrarlanır.")
+                now_t = time.time()
+                if callback_notify and (now_t - getattr(self, '_last_retry_notify', 0) > 30):
+                    self._last_retry_notify = now_t
+                    await callback_notify("⚠️ <b>Pocket Option bağlantısı yenilənir...</b> Ticarət avtomatik gözləmədədir.")
                 await asyncio.sleep(3)
                 continue
 
