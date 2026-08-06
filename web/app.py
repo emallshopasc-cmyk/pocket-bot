@@ -26,7 +26,7 @@ def create_app(signal_engine=None, po_trader=None):
     CORS(app)
     app.config['SECRET_KEY'] = 'pocket_secret_key'
     
-    socketio = SocketIO(app, cors_allowed_origins="*")
+    socketio = SocketIO(app, cors_allowed_origins="*", async_mode='threading')
     app.socketio = socketio
     
     @app.route('/')
