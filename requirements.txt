@@ -23,6 +23,6 @@ APScheduler>=3.10.0
 
 # HTTP və WebSocket sorğular
 requests>=2.31.0
-websockets>=11.0.3
+websockets==11.0.3
 websocket-client>=1.6.0
 loguru>=0.7.0

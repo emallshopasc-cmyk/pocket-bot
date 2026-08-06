@@ -11,7 +11,13 @@ from datetime import datetime
 from collections import deque
 import websockets
 from websockets.exceptions import ConnectionClosed
-from websockets.legacy.client import WebSocketClientProtocol
+try:
+    from websockets.legacy.client import WebSocketClientProtocol
+except ImportError:
+    try:
+        from websockets.asyncio.client import ClientConnection as WebSocketClientProtocol
+    except ImportError:
+        WebSocketClientProtocol = Any
 from loguru import logger
 
 from .models import ConnectionInfo, ConnectionStatus, ServerTime

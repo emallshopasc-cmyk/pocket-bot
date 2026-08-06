@@ -19,10 +19,10 @@ logger = logging.getLogger(__name__)
 try:
     from pocketoptionapi_async import AsyncPocketOptionClient, OrderDirection
     PO_API_AVAILABLE = True
-except ImportError:
+except Exception as e:
     PO_API_AVAILABLE = False
     OrderDirection = None
-    logger.warning("pocketoptionapi_async quraşdırılmayıb.")
+    logger.error(f"❌ PocketOption API Yüklənmə Xətası: {e}", exc_info=True)
 
 
 class MartingaleManager:
