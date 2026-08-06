@@ -200,7 +200,8 @@ def run_web_dashboard(signal_engine: SignalEngine, po_trader: PocketOptionTrader
                 port=settings.WEB_PORT,
                 debug=False,
                 use_reloader=False,
-                log_output=False
+                log_output=False,
+                allow_unsafe_werkzeug=True
             )
         else:
             app.run(
