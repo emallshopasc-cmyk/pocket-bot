@@ -1,0 +1,27 @@
+# Pocket Option Siqnal Sistemi - Asılılıqlar
+# ============================================
+
+# Telegram Bot
+python-telegram-bot[job-queue]==21.6
+
+# Data və Analiz
+yfinance>=0.2.31
+pandas>=2.1.0
+numpy>=1.24.0
+
+# Qrafik
+matplotlib>=3.8.0
+mplfinance>=0.12.10b0
+Pillow>=10.0.0
+
+# Web Dashboard
+Flask>=3.0.0
+flask-socketio>=5.3.0
+flask-cors>=4.0.0
+eventlet>=0.35.0
+
+# Planlaşdırıcı
+APScheduler>=3.10.0
+
+# HTTP sorğular
+requests>=2.31.0

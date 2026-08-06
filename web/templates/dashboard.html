@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pocket Signal - Premium Ticarət Paneli</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="/static/css/style.css">
+    
+    <!-- Socket.IO -->
+    <script src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
+    
+    <!-- Lightweight Charts -->
+    <script src="https://unpkg.com/lightweight-charts/dist/lightweight-charts.standalone.production.js"></script>
+    
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="app-container">
+        <!-- Header -->
+        <header class="header glass-panel">
+            <div class="logo">
+                <div class="logo-icon pulse"></div>
+                <h1>Pocket Signal</h1>
+            </div>
+            
+            <nav class="nav-links">
+                <a href="#" class="active">Panel</a>
+                <a href="#">Tarixçə</a>
+                <a href="#">Tənzimləmələr</a>
+            </nav>
+            
+            <div class="header-right">
+                <div class="live-clock" id="live-clock">00:00:00</div>
+                <div class="connection-status">
+                    <span class="status-dot disconnected" id="connection-dot"></span>
+                    <span id="connection-text">Gözlənilir...</span>
+                </div>
+            </div>
+        </header>
+
+        <main class="main-content">
+            <!-- Stats Bar -->
+            <section class="stats-bar">
+                <div class="stat-card glass-panel">
+                    <div class="stat-title">Ümumi Siqnallar</div>
+                    <div class="stat-value" id="stat-total">0</div>
+                </div>
+                <div class="stat-card glass-panel">
+                    <div class="stat-title">Uğurlu %</div>
+                    <div class="stat-value" id="stat-winrate">0%</div>
+                </div>
+                <div class="stat-card glass-panel">
+                    <div class="stat-title">Aktiv Cütlər</div>
+                    <div class="stat-value" id="stat-pairs">0</div>
+                </div>
+                <div class="stat-card glass-panel">
+                    <div class="stat-title">Son Yenilənmə</div>
+                    <div class="stat-value text-small" id="stat-last-update">--:--:--</div>
+                </div>
+            </section>
+
+            <!-- Controls -->
+            <section class="controls">
+                <div class="timeframe-tabs glass-panel">
+                    <button class="tf-btn" data-tf="M1">M1</button>
+                    <button class="tf-btn active" data-tf="M5">M5</button>
+                    <button class="tf-btn" data-tf="M15">M15</button>
+                </div>
+                <button class="refresh-btn glass-panel" id="refresh-btn">
+                    Yenilə
+                </button>
+            </section>
+
+            <!-- Signal Grid -->
+            <section class="signals-section">
+                <h2 class="section-title">Aktiv Siqnallar <span id="current-tf-display">M5</span></h2>
+                <div id="empty-state" class="empty-state glass-panel hidden">
+                    <p>Hazırda siqnal yoxdur. Bazar skan edilir...</p>
+                </div>
+                <div class="signal-grid" id="signal-grid">
+                    <!-- Cards injected by JS -->
+                </div>
+            </section>
+
+            <!-- History Section -->
+            <section class="history-section">
+                <h2 class="section-title">Son Siqnallar</h2>
+                <div class="table-container glass-panel">
+                    <table class="history-table">
+                        <thead>
+                            <tr>
+                                <th>Vaxt</th>
+                                <th>Aktiv</th>
+                                <th>İstiqamət</th>
+                                <th>Etibar</th>
+                                <th>Qiymət</th>
+                                <th>Timeframe</th>
+                            </tr>
+                        </thead>
+                        <tbody id="history-body">
+                            <!-- Rows injected by JS -->
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>Risk xəbərdarlığı: Ticarət yüksək risk ehtiva edir. Təqdim olunan siqnallar yalnız məlumat xarakterlidir və maliyyə məsləhəti deyildir.</p>
+        </footer>
+    </div>
+
+    <!-- Signal Detail Modal -->
+    <div class="modal-overlay" id="signal-modal">
+        <div class="modal-content glass-panel">
+            <div class="modal-header">
+                <h2 id="modal-title">Siqnal Detalları</h2>
+                <button class="close-btn" id="close-modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="modal-info" id="modal-info"></div>
+                <div class="modal-chart-container">
+                    <img id="modal-chart-img" src="" alt="Chart" style="display:none; width:100%; border-radius:8px;">
+                </div>
+                <div class="modal-indicators" id="modal-indicators"></div>
+                <div class="modal-patterns" id="modal-patterns"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast Container -->
+    <div class="toast-container" id="toast-container"></div>
+
+    <script src="/static/js/dashboard.js"></script>
+</body>
+</html>

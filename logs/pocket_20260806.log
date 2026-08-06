@@ -1,0 +1,275 @@
+2026-08-06 23:36:27 | pocket.main          | INFO     | 🚀 Sistem başladılır...
+2026-08-06 23:36:27 | pocket.main          | INFO     | ⚙️  Core komponentlər yaradılır...
+2026-08-06 23:36:27 | pocket.main          | INFO     | ✅ Core komponentlər hazırdır
+2026-08-06 23:36:27 | pocket.main          | INFO     | 🔍 Bazar skaneri işə düşdü
+2026-08-06 23:36:27 | pocket.main          | INFO     | 🔍 Bazar skaneri thread-i başladı
+2026-08-06 23:36:27 | pocket.main          | INFO     | 📊 Bazar skan edilir...
+2026-08-06 23:36:27 | pocket.main          | WARNING  | ⚠️  Telegram Bot: Token yoxdur, yalnız Web Dashboard işləyəcək
+2026-08-06 23:36:27 | pocket.main          | WARNING  |    Token əlavə etmək üçün: config/settings.py → TELEGRAM_BOT_TOKEN
+2026-08-06 23:36:27 | pocket.main          | INFO     | 🌐 Web Dashboard: http://localhost:5000
+2026-08-06 23:36:28 | pocket.main          | INFO     | 🌐 Web Dashboard işə düşür: http://localhost:5000
+2026-08-06 23:36:30 | pocket.main          | INFO     | ✅ M1 üçün 3 siqnal tapıldı
+2026-08-06 23:36:30 | core.chart_generator | ERROR    | Qrafik yaradılarkən xəta: len(panel_ratios) must be 2, or must be same as number of panels
+len(panel_ratios)=2  num panels=1
+2026-08-06 23:36:31 | core.chart_generator | ERROR    | Qrafik yaradılarkən xəta: len(panel_ratios) must be 2, or must be same as number of panels
+len(panel_ratios)=2  num panels=1
+2026-08-06 23:36:31 | core.chart_generator | ERROR    | Qrafik yaradılarkən xəta: len(panel_ratios) must be 2, or must be same as number of panels
+len(panel_ratios)=2  num panels=1
+2026-08-06 23:36:34 | pocket.main          | INFO     | ✅ M5 üçün 5 siqnal tapıldı
+2026-08-06 23:36:34 | core.chart_generator | ERROR    | Qrafik yaradılarkən xəta: len(panel_ratios) must be 2, or must be same as number of panels
+len(panel_ratios)=2  num panels=1
+2026-08-06 23:36:34 | core.chart_generator | ERROR    | Qrafik yaradılarkən xəta: len(panel_ratios) must be 2, or must be same as number of panels
+len(panel_ratios)=2  num panels=1
+2026-08-06 23:36:34 | core.chart_generator | ERROR    | Qrafik yaradılarkən xəta: len(panel_ratios) must be 2, or must be same as number of panels
+len(panel_ratios)=2  num panels=1
+2026-08-06 23:36:34 | core.chart_generator | ERROR    | Qrafik yaradılarkən xəta: len(panel_ratios) must be 2, or must be same as number of panels
+len(panel_ratios)=2  num panels=1
+2026-08-06 23:36:34 | core.chart_generator | ERROR    | Qrafik yaradılarkən xəta: len(panel_ratios) must be 2, or must be same as number of panels
+len(panel_ratios)=2  num panels=1
+2026-08-06 23:36:37 | pocket.main          | INFO     | ✅ M15 üçün 1 siqnal tapıldı
+2026-08-06 23:36:37 | core.chart_generator | ERROR    | Qrafik yaradılarkən xəta: len(panel_ratios) must be 2, or must be same as number of panels
+len(panel_ratios)=2  num panels=1
+2026-08-06 23:37:10 | pocket.main          | INFO     | 🚀 Sistem başladılır...
+2026-08-06 23:37:10 | pocket.main          | INFO     | ⚙️  Core komponentlər yaradılır...
+2026-08-06 23:37:10 | pocket.main          | INFO     | ✅ Core komponentlər hazırdır
+2026-08-06 23:37:10 | pocket.main          | INFO     | 🔍 Bazar skaneri işə düşdü
+2026-08-06 23:37:10 | pocket.main          | INFO     | 🔍 Bazar skaneri thread-i başladı
+2026-08-06 23:37:10 | pocket.main          | INFO     | 📊 Bazar skan edilir...
+2026-08-06 23:37:10 | pocket.main          | WARNING  | ⚠️  Telegram Bot: Token yoxdur, yalnız Web Dashboard işləyəcək
+2026-08-06 23:37:10 | pocket.main          | WARNING  |    Token əlavə etmək üçün: config/settings.py → TELEGRAM_BOT_TOKEN
+2026-08-06 23:37:10 | pocket.main          | INFO     | 🌐 Web Dashboard: http://localhost:5000
+2026-08-06 23:37:11 | pocket.main          | INFO     | 🌐 Web Dashboard işə düşür: http://localhost:5000
+2026-08-06 23:37:13 | pocket.main          | INFO     | ✅ M1 üçün 3 siqnal tapıldı
+2026-08-06 23:37:17 | pocket.main          | INFO     | ✅ M5 üçün 5 siqnal tapıldı
+2026-08-06 23:37:22 | pocket.main          | INFO     | ✅ M15 üçün 1 siqnal tapıldı
+2026-08-06 23:38:22 | pocket.main          | INFO     | 📊 Bazar skan edilir...
+2026-08-06 23:38:26 | pocket.main          | INFO     | ✅ M1 üçün 3 siqnal tapıldı
+2026-08-06 23:38:39 | pocket.main          | INFO     | ✅ M5 üçün 6 siqnal tapıldı
+2026-08-06 23:38:49 | pocket.main          | INFO     | ✅ M15 üçün 1 siqnal tapıldı
+2026-08-06 23:47:51 | pocket.main          | INFO     | 🚀 Sistem başladılır...
+2026-08-06 23:47:51 | pocket.main          | INFO     | ⚙️  Core komponentlər yaradılır...
+2026-08-06 23:47:51 | pocket.main          | INFO     | ✅ Core və Martingale komponentlər hazırdır
+2026-08-06 23:47:51 | pocket.main          | INFO     | 🔍 Bazar skaneri və Martingale icraçısı işə düşdü
+2026-08-06 23:47:51 | pocket.main          | INFO     | 🔍 Martingale Skaneri başladı
+2026-08-06 23:47:51 | pocket.main          | WARNING  | ⚠️  Telegram Bot Token yoxdur. Bot başlamadı.
+2026-08-06 23:47:51 | pocket.main          | INFO     | 🌐 Web Dashboard: http://localhost:5000
+2026-08-06 23:47:51 | core.po_trader       | WARNING  | ⚠️  PO_SSID konfiqurasiya edilməyib. Əmrlər simulyasiya ediləcək.
+2026-08-06 23:47:51 | pocket.main          | INFO     | 📊 Bazar skan edilir...
+2026-08-06 23:47:52 | pocket.main          | INFO     | 🌐 Web Dashboard işə düşür: http://localhost:5000
+2026-08-06 23:47:55 | pocket.main          | INFO     | ℹ️  M1 üçün siqnal tapılmadı
+2026-08-06 23:47:57 | pocket.main          | INFO     | ℹ️  M5 üçün siqnal tapılmadı
+2026-08-06 23:48:00 | pocket.main          | INFO     | ℹ️  M15 üçün siqnal tapılmadı
+2026-08-06 23:49:00 | pocket.main          | INFO     | 📊 Bazar skan edilir...
+2026-08-06 23:49:03 | pocket.main          | INFO     | ℹ️  M1 üçün siqnal tapılmadı
+2026-08-06 23:49:05 | pocket.main          | INFO     | ℹ️  M5 üçün siqnal tapılmadı
+2026-08-06 23:49:08 | pocket.main          | INFO     | ℹ️  M15 üçün siqnal tapılmadı
+2026-08-06 23:49:31 | pocket.main          | INFO     | 🚀 Sistem başladılır...
+2026-08-06 23:49:31 | pocket.main          | INFO     | ⚙️  Core komponentlər yaradılır...
+2026-08-06 23:49:31 | pocket.main          | INFO     | ✅ Core və Martingale komponentlər hazırdır
+2026-08-06 23:49:31 | pocket.main          | INFO     | 🔍 Bazar skaneri və Martingale icraçısı işə düşdü
+2026-08-06 23:49:31 | pocket.main          | INFO     | 🔍 Martingale Skaneri başladı
+2026-08-06 23:49:31 | pocket.main          | INFO     | 🤖 Telegram Bot thread-i başladı
+2026-08-06 23:49:31 | pocket.main          | INFO     | 🌐 Web Dashboard: http://localhost:5000
+2026-08-06 23:49:31 | core.po_trader       | WARNING  | ⚠️  PO_SSID konfiqurasiya edilməyib. Əmrlər simulyasiya ediləcək.
+2026-08-06 23:49:31 | pocket.main          | INFO     | 📊 Bazar skan edilir...
+2026-08-06 23:49:32 | pocket.main          | INFO     | 🌐 Web Dashboard işə düşür: http://localhost:5000
+2026-08-06 23:49:33 | pocket.main          | INFO     | 🤖 Telegram Bot işə düşür...
+2026-08-06 23:49:33 | bot.telegram_bot     | INFO     | Bot starting...
+2026-08-06 23:49:34 | pocket.main          | INFO     | ℹ️  M1 üçün siqnal tapılmadı
+2026-08-06 23:49:36 | httpx                | INFO     | HTTP Request: POST https://api.telegram.org/bot8941505352:AAHsWfhljzdi9hH-pdjzsfA86Ih1YzBEBLA/getMe "HTTP/1.1 200 OK"
+2026-08-06 23:49:36 | httpx                | INFO     | HTTP Request: POST https://api.telegram.org/bot8941505352:AAHsWfhljzdi9hH-pdjzsfA86Ih1YzBEBLA/deleteWebhook "HTTP/1.1 200 OK"
+2026-08-06 23:49:36 | apscheduler.scheduler | INFO     | Scheduler started
+2026-08-06 23:49:36 | telegram.ext.Application | INFO     | Application started
+2026-08-06 23:49:36 | bot.handlers         | ERROR    | Exception while handling an update: httpx.ConnectError: 
+2026-08-06 23:49:37 | pocket.main          | INFO     | ℹ️  M5 üçün siqnal tapılmadı
+2026-08-06 23:49:38 | bot.handlers         | ERROR    | Exception while handling an update: httpx.ConnectError: 
+2026-08-06 23:49:39 | pocket.main          | INFO     | ℹ️  M15 üçün siqnal tapılmadı
+2026-08-06 23:49:49 | httpx                | INFO     | HTTP Request: POST https://api.telegram.org/bot8941505352:AAHsWfhljzdi9hH-pdjzsfA86Ih1YzBEBLA/getUpdates "HTTP/1.1 200 OK"
+2026-08-06 23:49:59 | httpx                | INFO     | HTTP Request: POST https://api.telegram.org/bot8941505352:AAHsWfhljzdi9hH-pdjzsfA86Ih1YzBEBLA/getUpdates "HTTP/1.1 200 OK"
+2026-08-06 23:49:59 | bot.handlers         | ERROR    | Exception while handling an update: httpx.ConnectError: 
+2026-08-06 23:49:59 | httpx                | INFO     | HTTP Request: POST https://api.telegram.org/bot8941505352:AAHsWfhljzdi9hH-pdjzsfA86Ih1YzBEBLA/sendMessage "HTTP/1.1 200 OK"
+2026-08-06 23:50:09 | httpx                | INFO     | HTTP Request: POST https://api.telegram.org/bot8941505352:AAHsWfhljzdi9hH-pdjzsfA86Ih1YzBEBLA/getUpdates "HTTP/1.1 200 OK"
+2026-08-06 23:50:19 | httpx                | INFO     | HTTP Request: POST https://api.telegram.org/bot8941505352:AAHsWfhljzdi9hH-pdjzsfA86Ih1YzBEBLA/getUpdates "HTTP/1.1 200 OK"
+2026-08-06 23:50:29 | httpx                | INFO     | HTTP Request: POST https://api.telegram.org/bot8941505352:AAHsWfhljzdi9hH-pdjzsfA86Ih1YzBEBLA/getUpdates "HTTP/1.1 200 OK"
+2026-08-06 23:50:42 | pocket.main          | INFO     | 🚀 Sistem başladılır...
+2026-08-06 23:50:42 | pocket.main          | INFO     | ⚙️  Core komponentlər yaradılır...
+2026-08-06 23:50:42 | pocket.main          | INFO     | ✅ Core və Martingale komponentlər hazırdır
+2026-08-06 23:50:42 | pocket.main          | INFO     | 🔍 Bazar skaneri və Martingale icraçısı işə düşdü
+2026-08-06 23:50:42 | pocket.main          | INFO     | 🔍 Martingale Skaneri başladı
+2026-08-06 23:50:42 | pocket.main          | INFO     | 🤖 Telegram Bot thread-i başladı
+2026-08-06 23:50:42 | pocket.main          | INFO     | 🌐 Web Dashboard: http://localhost:5000
+2026-08-06 23:50:42 | core.po_trader       | WARNING  | ⚠️  PO_SSID konfiqurasiya edilməyib. Əmrlər simulyasiya ediləcək.
+2026-08-06 23:50:42 | pocket.main          | INFO     | 📊 Bazar skan edilir...
+2026-08-06 23:50:43 | pocket.main          | INFO     | 🌐 Web Dashboard işə düşür: http://localhost:5000
+2026-08-06 23:50:44 | pocket.main          | INFO     | 🤖 Telegram Bot işə düşür...
+2026-08-06 23:50:44 | bot.telegram_bot     | INFO     | Bot starting...
+2026-08-06 23:50:44 | httpx                | INFO     | HTTP Request: POST https://api.telegram.org/bot8941505352:AAHsWfhljzdi9hH-pdjzsfA86Ih1YzBEBLA/getMe "HTTP/1.1 200 OK"
+2026-08-06 23:50:44 | httpx                | INFO     | HTTP Request: POST https://api.telegram.org/bot8941505352:AAHsWfhljzdi9hH-pdjzsfA86Ih1YzBEBLA/deleteWebhook "HTTP/1.1 200 OK"
+2026-08-06 23:50:44 | apscheduler.scheduler | INFO     | Scheduler started
+2026-08-06 23:50:44 | telegram.ext.Application | INFO     | Application started
+2026-08-06 23:50:45 | pocket.main          | INFO     | ℹ️  M1 üçün siqnal tapılmadı
+2026-08-06 23:50:48 | pocket.main          | INFO     | ℹ️  M5 üçün siqnal tapılmadı
+2026-08-06 23:50:50 | pocket.main          | INFO     | ℹ️  M15 üçün siqnal tapılmadı
+2026-08-06 23:50:54 | httpx                | INFO     | HTTP Request: POST https://api.telegram.org/bot8941505352:AAHsWfhljzdi9hH-pdjzsfA86Ih1YzBEBLA/getUpdates "HTTP/1.1 200 OK"
+2026-08-06 23:51:04 | httpx                | INFO     | HTTP Request: POST https://api.telegram.org/bot8941505352:AAHsWfhljzdi9hH-pdjzsfA86Ih1YzBEBLA/getUpdates "HTTP/1.1 200 OK"
+2026-08-06 23:51:15 | httpx                | INFO     | HTTP Request: POST https://api.telegram.org/bot8941505352:AAHsWfhljzdi9hH-pdjzsfA86Ih1YzBEBLA/getUpdates "HTTP/1.1 200 OK"
+2026-08-06 23:51:17 | httpx                | INFO     | HTTP Request: POST https://api.telegram.org/bot8941505352:AAHsWfhljzdi9hH-pdjzsfA86Ih1YzBEBLA/getUpdates "HTTP/1.1 200 OK"
+2026-08-06 23:51:17 | httpx                | INFO     | HTTP Request: POST https://api.telegram.org/bot8941505352:AAHsWfhljzdi9hH-pdjzsfA86Ih1YzBEBLA/sendMessage "HTTP/1.1 200 OK"
+2026-08-06 23:51:20 | httpx                | INFO     | HTTP Request: POST https://api.telegram.org/bot8941505352:AAHsWfhljzdi9hH-pdjzsfA86Ih1YzBEBLA/getUpdates "HTTP/1.1 200 OK"
+2026-08-06 23:51:20 | httpx                | INFO     | HTTP Request: POST https://api.telegram.org/bot8941505352:AAHsWfhljzdi9hH-pdjzsfA86Ih1YzBEBLA/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-08-06 23:51:20 | httpx                | INFO     | HTTP Request: POST https://api.telegram.org/bot8941505352:AAHsWfhljzdi9hH-pdjzsfA86Ih1YzBEBLA/sendChatAction "HTTP/1.1 200 OK"
+2026-08-06 23:51:24 | httpx                | INFO     | HTTP Request: POST https://api.telegram.org/bot8941505352:AAHsWfhljzdi9hH-pdjzsfA86Ih1YzBEBLA/sendMessage "HTTP/1.1 200 OK"
+2026-08-06 23:51:30 | httpx                | INFO     | HTTP Request: POST https://api.telegram.org/bot8941505352:AAHsWfhljzdi9hH-pdjzsfA86Ih1YzBEBLA/getUpdates "HTTP/1.1 200 OK"
+2026-08-06 23:51:30 | httpx                | INFO     | HTTP Request: POST https://api.telegram.org/bot8941505352:AAHsWfhljzdi9hH-pdjzsfA86Ih1YzBEBLA/getUpdates "HTTP/1.1 200 OK"
+2026-08-06 23:51:31 | httpx                | INFO     | HTTP Request: POST https://api.telegram.org/bot8941505352:AAHsWfhljzdi9hH-pdjzsfA86Ih1YzBEBLA/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-08-06 23:51:31 | httpx                | INFO     | HTTP Request: POST https://api.telegram.org/bot8941505352:AAHsWfhljzdi9hH-pdjzsfA86Ih1YzBEBLA/sendChatAction "HTTP/1.1 200 OK"
+2026-08-06 23:51:31 | httpx                | INFO     | HTTP Request: POST https://api.telegram.org/bot8941505352:AAHsWfhljzdi9hH-pdjzsfA86Ih1YzBEBLA/sendMessage "HTTP/1.1 200 OK"
+2026-08-06 23:51:36 | httpx                | INFO     | HTTP Request: POST https://api.telegram.org/bot8941505352:AAHsWfhljzdi9hH-pdjzsfA86Ih1YzBEBLA/getUpdates "HTTP/1.1 200 OK"
+2026-08-06 23:51:36 | httpx                | INFO     | HTTP Request: POST https://api.telegram.org/bot8941505352:AAHsWfhljzdi9hH-pdjzsfA86Ih1YzBEBLA/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-08-06 23:51:36 | httpx                | INFO     | HTTP Request: POST https://api.telegram.org/bot8941505352:AAHsWfhljzdi9hH-pdjzsfA86Ih1YzBEBLA/editMessageText "HTTP/1.1 200 OK"
+2026-08-06 23:51:40 | httpx                | INFO     | HTTP Request: POST https://api.telegram.org/bot8941505352:AAHsWfhljzdi9hH-pdjzsfA86Ih1YzBEBLA/getUpdates "HTTP/1.1 200 OK"
+2026-08-06 23:51:40 | httpx                | INFO     | HTTP Request: POST https://api.telegram.org/bot8941505352:AAHsWfhljzdi9hH-pdjzsfA86Ih1YzBEBLA/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-08-06 23:51:40 | httpx                | INFO     | HTTP Request: POST https://api.telegram.org/bot8941505352:AAHsWfhljzdi9hH-pdjzsfA86Ih1YzBEBLA/sendMessage "HTTP/1.1 200 OK"
+2026-08-06 23:51:44 | httpx                | INFO     | HTTP Request: POST https://api.telegram.org/bot8941505352:AAHsWfhljzdi9hH-pdjzsfA86Ih1YzBEBLA/getUpdates "HTTP/1.1 200 OK"
+2026-08-06 23:51:44 | httpx                | INFO     | HTTP Request: POST https://api.telegram.org/bot8941505352:AAHsWfhljzdi9hH-pdjzsfA86Ih1YzBEBLA/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-08-06 23:51:44 | httpx                | INFO     | HTTP Request: POST https://api.telegram.org/bot8941505352:AAHsWfhljzdi9hH-pdjzsfA86Ih1YzBEBLA/deleteMessage "HTTP/1.1 200 OK"
+2026-08-06 23:51:50 | pocket.main          | INFO     | 📊 Bazar skan edilir...
+2026-08-06 23:51:50 | httpx                | INFO     | HTTP Request: POST https://api.telegram.org/bot8941505352:AAHsWfhljzdi9hH-pdjzsfA86Ih1YzBEBLA/getUpdates "HTTP/1.1 200 OK"
+2026-08-06 23:51:51 | httpx                | INFO     | HTTP Request: POST https://api.telegram.org/bot8941505352:AAHsWfhljzdi9hH-pdjzsfA86Ih1YzBEBLA/sendMessage "HTTP/1.1 200 OK"
+2026-08-06 23:51:53 | httpx                | INFO     | HTTP Request: POST https://api.telegram.org/bot8941505352:AAHsWfhljzdi9hH-pdjzsfA86Ih1YzBEBLA/getUpdates "HTTP/1.1 200 OK"
+2026-08-06 23:51:53 | httpx                | INFO     | HTTP Request: POST https://api.telegram.org/bot8941505352:AAHsWfhljzdi9hH-pdjzsfA86Ih1YzBEBLA/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-08-06 23:51:53 | httpx                | INFO     | HTTP Request: POST https://api.telegram.org/bot8941505352:AAHsWfhljzdi9hH-pdjzsfA86Ih1YzBEBLA/sendChatAction "HTTP/1.1 200 OK"
+2026-08-06 23:51:53 | pocket.main          | INFO     | ℹ️  M1 üçün siqnal tapılmadı
+2026-08-06 23:51:56 | httpx                | INFO     | HTTP Request: POST https://api.telegram.org/bot8941505352:AAHsWfhljzdi9hH-pdjzsfA86Ih1YzBEBLA/sendMessage "HTTP/1.1 200 OK"
+2026-08-06 23:51:56 | pocket.main          | INFO     | ℹ️  M5 üçün siqnal tapılmadı
+2026-08-06 23:51:59 | pocket.main          | INFO     | ℹ️  M15 üçün siqnal tapılmadı
+2026-08-06 23:52:03 | httpx                | INFO     | HTTP Request: POST https://api.telegram.org/bot8941505352:AAHsWfhljzdi9hH-pdjzsfA86Ih1YzBEBLA/getUpdates "HTTP/1.1 200 OK"
+2026-08-06 23:52:13 | httpx                | INFO     | HTTP Request: POST https://api.telegram.org/bot8941505352:AAHsWfhljzdi9hH-pdjzsfA86Ih1YzBEBLA/getUpdates "HTTP/1.1 200 OK"
+2026-08-06 23:52:24 | httpx                | INFO     | HTTP Request: POST https://api.telegram.org/bot8941505352:AAHsWfhljzdi9hH-pdjzsfA86Ih1YzBEBLA/getUpdates "HTTP/1.1 200 OK"
+2026-08-06 23:52:34 | httpx                | INFO     | HTTP Request: POST https://api.telegram.org/bot8941505352:AAHsWfhljzdi9hH-pdjzsfA86Ih1YzBEBLA/getUpdates "HTTP/1.1 200 OK"
+2026-08-06 23:52:44 | httpx                | INFO     | HTTP Request: POST https://api.telegram.org/bot8941505352:AAHsWfhljzdi9hH-pdjzsfA86Ih1YzBEBLA/getUpdates "HTTP/1.1 200 OK"
+2026-08-06 23:52:54 | httpx                | INFO     | HTTP Request: POST https://api.telegram.org/bot8941505352:AAHsWfhljzdi9hH-pdjzsfA86Ih1YzBEBLA/getUpdates "HTTP/1.1 200 OK"
+2026-08-06 23:52:59 | pocket.main          | INFO     | 📊 Bazar skan edilir...
+2026-08-06 23:53:01 | pocket.main          | INFO     | ℹ️  M1 üçün siqnal tapılmadı
+2026-08-06 23:53:04 | pocket.main          | INFO     | ℹ️  M5 üçün siqnal tapılmadı
+2026-08-06 23:53:04 | httpx                | INFO     | HTTP Request: POST https://api.telegram.org/bot8941505352:AAHsWfhljzdi9hH-pdjzsfA86Ih1YzBEBLA/getUpdates "HTTP/1.1 200 OK"
+2026-08-06 23:53:07 | pocket.main          | INFO     | ℹ️  M15 üçün siqnal tapılmadı
+2026-08-06 23:53:14 | httpx                | INFO     | HTTP Request: POST https://api.telegram.org/bot8941505352:AAHsWfhljzdi9hH-pdjzsfA86Ih1YzBEBLA/getUpdates "HTTP/1.1 200 OK"
+2026-08-06 23:53:24 | httpx                | INFO     | HTTP Request: POST https://api.telegram.org/bot8941505352:AAHsWfhljzdi9hH-pdjzsfA86Ih1YzBEBLA/getUpdates "HTTP/1.1 200 OK"
+2026-08-06 23:53:34 | httpx                | INFO     | HTTP Request: POST https://api.telegram.org/bot8941505352:AAHsWfhljzdi9hH-pdjzsfA86Ih1YzBEBLA/getUpdates "HTTP/1.1 200 OK"
+2026-08-06 23:53:44 | httpx                | INFO     | HTTP Request: POST https://api.telegram.org/bot8941505352:AAHsWfhljzdi9hH-pdjzsfA86Ih1YzBEBLA/getUpdates "HTTP/1.1 200 OK"
+2026-08-06 23:53:55 | httpx                | INFO     | HTTP Request: POST https://api.telegram.org/bot8941505352:AAHsWfhljzdi9hH-pdjzsfA86Ih1YzBEBLA/getUpdates "HTTP/1.1 200 OK"
+2026-08-06 23:54:05 | httpx                | INFO     | HTTP Request: POST https://api.telegram.org/bot8941505352:AAHsWfhljzdi9hH-pdjzsfA86Ih1YzBEBLA/getUpdates "HTTP/1.1 200 OK"
+2026-08-06 23:54:07 | pocket.main          | INFO     | 📊 Bazar skan edilir...
+2026-08-06 23:54:09 | pocket.main          | INFO     | ℹ️  M1 üçün siqnal tapılmadı
+2026-08-06 23:54:12 | pocket.main          | INFO     | ℹ️  M5 üçün siqnal tapılmadı
+2026-08-06 23:54:15 | pocket.main          | INFO     | ℹ️  M15 üçün siqnal tapılmadı
+2026-08-06 23:54:15 | httpx                | INFO     | HTTP Request: POST https://api.telegram.org/bot8941505352:AAHsWfhljzdi9hH-pdjzsfA86Ih1YzBEBLA/getUpdates "HTTP/1.1 200 OK"
+2026-08-06 23:54:25 | httpx                | INFO     | HTTP Request: POST https://api.telegram.org/bot8941505352:AAHsWfhljzdi9hH-pdjzsfA86Ih1YzBEBLA/getUpdates "HTTP/1.1 200 OK"
+2026-08-06 23:54:35 | httpx                | INFO     | HTTP Request: POST https://api.telegram.org/bot8941505352:AAHsWfhljzdi9hH-pdjzsfA86Ih1YzBEBLA/getUpdates "HTTP/1.1 200 OK"
+2026-08-06 23:54:45 | httpx                | INFO     | HTTP Request: POST https://api.telegram.org/bot8941505352:AAHsWfhljzdi9hH-pdjzsfA86Ih1YzBEBLA/getUpdates "HTTP/1.1 200 OK"
+2026-08-06 23:54:55 | httpx                | INFO     | HTTP Request: POST https://api.telegram.org/bot8941505352:AAHsWfhljzdi9hH-pdjzsfA86Ih1YzBEBLA/getUpdates "HTTP/1.1 200 OK"
+2026-08-06 23:55:05 | httpx                | INFO     | HTTP Request: POST https://api.telegram.org/bot8941505352:AAHsWfhljzdi9hH-pdjzsfA86Ih1YzBEBLA/getUpdates "HTTP/1.1 200 OK"
+2026-08-06 23:55:15 | pocket.main          | INFO     | 📊 Bazar skan edilir...
+2026-08-06 23:55:15 | httpx                | INFO     | HTTP Request: POST https://api.telegram.org/bot8941505352:AAHsWfhljzdi9hH-pdjzsfA86Ih1YzBEBLA/getUpdates "HTTP/1.1 200 OK"
+2026-08-06 23:55:18 | pocket.main          | INFO     | ℹ️  M1 üçün siqnal tapılmadı
+2026-08-06 23:55:21 | pocket.main          | INFO     | ℹ️  M5 üçün siqnal tapılmadı
+2026-08-06 23:55:24 | pocket.main          | INFO     | ℹ️  M15 üçün siqnal tapılmadı
+2026-08-06 23:55:25 | httpx                | INFO     | HTTP Request: POST https://api.telegram.org/bot8941505352:AAHsWfhljzdi9hH-pdjzsfA86Ih1YzBEBLA/getUpdates "HTTP/1.1 200 OK"
+2026-08-06 23:55:45 | pocket.main          | INFO     | 🚀 Sistem başladılır...
+2026-08-06 23:55:45 | pocket.main          | INFO     | ⚙️  Core komponentlər yaradılır...
+2026-08-06 23:55:45 | pocket.main          | INFO     | ✅ Core və Martingale komponentlər hazırdır
+2026-08-06 23:55:45 | pocket.main          | INFO     | 🔍 Bazar skaneri və Martingale icraçısı işə düşdü
+2026-08-06 23:55:45 | pocket.main          | INFO     | 🔍 Martingale Skaneri başladı
+2026-08-06 23:55:45 | pocket.main          | INFO     | 🤖 Telegram Bot thread-i başladı
+2026-08-06 23:55:45 | pocket.main          | INFO     | 🌐 Web Dashboard: http://localhost:5000
+2026-08-06 23:55:45 | core.po_trader       | INFO     | 🔌 Pocket Option-a qoşulunur... (Hesab: DEMO)
+2026-08-06 23:55:45 | core.po_trader       | ERROR    | ❌ Pocket Option-a qoşulmaq mümkün olmadı. SSID-ni yoxlayın.
+2026-08-06 23:55:45 | pocket.main          | INFO     | 📊 Bazar skan edilir...
+2026-08-06 23:55:46 | pocket.main          | INFO     | 🌐 Web Dashboard işə düşür: http://localhost:5000
+2026-08-06 23:55:46 | pocket.main          | INFO     | 🤖 Telegram Bot işə düşür...
+2026-08-06 23:55:46 | bot.telegram_bot     | INFO     | Bot starting...
+2026-08-06 23:55:47 | httpx                | INFO     | HTTP Request: POST https://api.telegram.org/bot8941505352:AAHsWfhljzdi9hH-pdjzsfA86Ih1YzBEBLA/getMe "HTTP/1.1 200 OK"
+2026-08-06 23:55:47 | httpx                | INFO     | HTTP Request: POST https://api.telegram.org/bot8941505352:AAHsWfhljzdi9hH-pdjzsfA86Ih1YzBEBLA/deleteWebhook "HTTP/1.1 200 OK"
+2026-08-06 23:55:47 | apscheduler.scheduler | INFO     | Scheduler started
+2026-08-06 23:55:47 | telegram.ext.Application | INFO     | Application started
+2026-08-06 23:55:48 | pocket.main          | INFO     | ℹ️  M1 üçün siqnal tapılmadı
+2026-08-06 23:55:51 | pocket.main          | INFO     | ℹ️  M5 üçün siqnal tapılmadı
+2026-08-06 23:55:54 | pocket.main          | INFO     | ℹ️  M15 üçün siqnal tapılmadı
+2026-08-06 23:55:57 | httpx                | INFO     | HTTP Request: POST https://api.telegram.org/bot8941505352:AAHsWfhljzdi9hH-pdjzsfA86Ih1YzBEBLA/getUpdates "HTTP/1.1 200 OK"
+2026-08-06 23:56:07 | httpx                | INFO     | HTTP Request: POST https://api.telegram.org/bot8941505352:AAHsWfhljzdi9hH-pdjzsfA86Ih1YzBEBLA/getUpdates "HTTP/1.1 200 OK"
+2026-08-06 23:56:17 | httpx                | INFO     | HTTP Request: POST https://api.telegram.org/bot8941505352:AAHsWfhljzdi9hH-pdjzsfA86Ih1YzBEBLA/getUpdates "HTTP/1.1 200 OK"
+2026-08-06 23:56:27 | httpx                | INFO     | HTTP Request: POST https://api.telegram.org/bot8941505352:AAHsWfhljzdi9hH-pdjzsfA86Ih1YzBEBLA/getUpdates "HTTP/1.1 200 OK"
+2026-08-06 23:56:38 | httpx                | INFO     | HTTP Request: POST https://api.telegram.org/bot8941505352:AAHsWfhljzdi9hH-pdjzsfA86Ih1YzBEBLA/getUpdates "HTTP/1.1 200 OK"
+2026-08-06 23:56:48 | httpx                | INFO     | HTTP Request: POST https://api.telegram.org/bot8941505352:AAHsWfhljzdi9hH-pdjzsfA86Ih1YzBEBLA/getUpdates "HTTP/1.1 200 OK"
+2026-08-06 23:56:54 | pocket.main          | INFO     | 📊 Bazar skan edilir...
+2026-08-06 23:56:56 | pocket.main          | INFO     | ℹ️  M1 üçün siqnal tapılmadı
+2026-08-06 23:56:58 | httpx                | INFO     | HTTP Request: POST https://api.telegram.org/bot8941505352:AAHsWfhljzdi9hH-pdjzsfA86Ih1YzBEBLA/getUpdates "HTTP/1.1 200 OK"
+2026-08-06 23:56:59 | pocket.main          | INFO     | ℹ️  M5 üçün siqnal tapılmadı
+2026-08-06 23:57:02 | pocket.main          | INFO     | ℹ️  M15 üçün siqnal tapılmadı
+2026-08-06 23:57:08 | httpx                | INFO     | HTTP Request: POST https://api.telegram.org/bot8941505352:AAHsWfhljzdi9hH-pdjzsfA86Ih1YzBEBLA/getUpdates "HTTP/1.1 200 OK"
+2026-08-06 23:57:18 | httpx                | INFO     | HTTP Request: POST https://api.telegram.org/bot8941505352:AAHsWfhljzdi9hH-pdjzsfA86Ih1YzBEBLA/getUpdates "HTTP/1.1 200 OK"
+2026-08-06 23:57:28 | httpx                | INFO     | HTTP Request: POST https://api.telegram.org/bot8941505352:AAHsWfhljzdi9hH-pdjzsfA86Ih1YzBEBLA/getUpdates "HTTP/1.1 200 OK"
+2026-08-06 23:59:59 | pocket.main          | INFO     | 🚀 Sistem başladılır...
+2026-08-06 23:59:59 | pocket.main          | INFO     | ⚙️  Core komponentlər yaradılır...
+2026-08-06 23:59:59 | pocket.main          | INFO     | ✅ Core və Martingale komponentlər hazırdır
+2026-08-06 23:59:59 | pocket.main          | INFO     | 🔍 Bazar skaneri və Martingale icraçısı işə düşdü
+2026-08-06 23:59:59 | pocket.main          | INFO     | 🔍 Martingale Skaneri başladı
+2026-08-06 23:59:59 | pocket.main          | INFO     | 🤖 Telegram Bot thread-i başladı
+2026-08-06 23:59:59 | pocket.main          | INFO     | 🌐 Web Dashboard: http://localhost:5000
+2026-08-06 23:59:59 | core.po_trader       | INFO     | 🔌 Pocket Option-a qoşulunur... (Hesab: DEMO)
+2026-08-07 00:00:00 | core.po_trader       | INFO     | ✅ Pocket Option-a uğurla qoşuldu!
+2026-08-07 00:00:00 | core.po_trader       | INFO     | 💰 Balans: 68128.4 USD
+2026-08-07 00:00:00 | pocket.main          | INFO     | 📊 Bazar skan edilir...
+2026-08-07 00:00:00 | pocket.main          | INFO     | 🌐 Web Dashboard işə düşür: http://localhost:5000
+2026-08-07 00:00:00 | pocket.main          | INFO     | 🤖 Telegram Bot işə düşür...
+2026-08-07 00:00:00 | bot.telegram_bot     | INFO     | Bot starting...
+2026-08-07 00:00:01 | httpx                | INFO     | HTTP Request: POST https://api.telegram.org/bot8941505352:AAHsWfhljzdi9hH-pdjzsfA86Ih1YzBEBLA/getMe "HTTP/1.1 200 OK"
+2026-08-07 00:00:01 | httpx                | INFO     | HTTP Request: POST https://api.telegram.org/bot8941505352:AAHsWfhljzdi9hH-pdjzsfA86Ih1YzBEBLA/deleteWebhook "HTTP/1.1 200 OK"
+2026-08-07 00:00:01 | apscheduler.scheduler | INFO     | Scheduler started
+2026-08-07 00:00:01 | telegram.ext.Application | INFO     | Application started
+2026-08-07 00:00:01 | bot.handlers         | ERROR    | Exception while handling an update: httpx.ConnectError: 
+NoneType: None
+2026-08-07 00:00:02 | pocket.main          | INFO     | ℹ️  M1 üçün siqnal tapılmadı
+2026-08-07 00:00:04 | pocket.main          | INFO     | ℹ️  M5 üçün siqnal tapılmadı
+2026-08-07 00:00:05 | pocket.main          | INFO     | ℹ️  M15 üçün siqnal tapılmadı
+2026-08-07 00:00:12 | httpx                | INFO     | HTTP Request: POST https://api.telegram.org/bot8941505352:AAHsWfhljzdi9hH-pdjzsfA86Ih1YzBEBLA/getUpdates "HTTP/1.1 200 OK"
+2026-08-07 00:00:22 | httpx                | INFO     | HTTP Request: POST https://api.telegram.org/bot8941505352:AAHsWfhljzdi9hH-pdjzsfA86Ih1YzBEBLA/getUpdates "HTTP/1.1 200 OK"
+2026-08-07 00:00:32 | httpx                | INFO     | HTTP Request: POST https://api.telegram.org/bot8941505352:AAHsWfhljzdi9hH-pdjzsfA86Ih1YzBEBLA/getUpdates "HTTP/1.1 200 OK"
+2026-08-07 00:00:43 | httpx                | INFO     | HTTP Request: POST https://api.telegram.org/bot8941505352:AAHsWfhljzdi9hH-pdjzsfA86Ih1YzBEBLA/getUpdates "HTTP/1.1 200 OK"
+2026-08-07 00:00:43 | httpx                | INFO     | HTTP Request: POST https://api.telegram.org/bot8941505352:AAHsWfhljzdi9hH-pdjzsfA86Ih1YzBEBLA/getUpdates "HTTP/1.1 200 OK"
+2026-08-07 00:00:43 | httpx                | INFO     | HTTP Request: POST https://api.telegram.org/bot8941505352:AAHsWfhljzdi9hH-pdjzsfA86Ih1YzBEBLA/sendMessage "HTTP/1.1 200 OK"
+2026-08-07 00:00:45 | httpx                | INFO     | HTTP Request: POST https://api.telegram.org/bot8941505352:AAHsWfhljzdi9hH-pdjzsfA86Ih1YzBEBLA/getUpdates "HTTP/1.1 200 OK"
+2026-08-07 00:00:45 | httpx                | INFO     | HTTP Request: POST https://api.telegram.org/bot8941505352:AAHsWfhljzdi9hH-pdjzsfA86Ih1YzBEBLA/answerCallbackQuery "HTTP/1.1 200 OK"
+2026-08-07 00:00:45 | httpx                | INFO     | HTTP Request: POST https://api.telegram.org/bot8941505352:AAHsWfhljzdi9hH-pdjzsfA86Ih1YzBEBLA/sendChatAction "HTTP/1.1 200 OK"
+2026-08-07 00:00:45 | core.data_fetcher    | ERROR    | Pocket Option şam alma xətası (EURUSD_otc): This event loop is already running
+2026-08-07 00:00:47 | core.data_fetcher    | ERROR    | Pocket Option şam alma xətası (GBPUSD_otc): This event loop is already running
+2026-08-07 00:00:47 | core.data_fetcher    | ERROR    | Pocket Option şam alma xətası (USDJPY_otc): This event loop is already running
+2026-08-07 00:00:48 | core.data_fetcher    | ERROR    | Pocket Option şam alma xətası (AUDUSD_otc): This event loop is already running
+2026-08-07 00:00:48 | core.data_fetcher    | ERROR    | Pocket Option şam alma xətası (AUDCAD_otc): This event loop is already running
+2026-08-07 00:00:48 | core.data_fetcher    | ERROR    | Pocket Option şam alma xətası (USDCAD_otc): This event loop is already running
+2026-08-07 00:00:49 | core.data_fetcher    | ERROR    | Pocket Option şam alma xətası (EURGBP_otc): This event loop is already running
+2026-08-07 00:00:49 | core.data_fetcher    | ERROR    | Pocket Option şam alma xətası (EURJPY_otc): This event loop is already running
+2026-08-07 00:00:50 | core.data_fetcher    | ERROR    | Pocket Option şam alma xətası (EURUSD=X): This event loop is already running
+2026-08-07 00:00:50 | core.data_fetcher    | ERROR    | Pocket Option şam alma xətası (GBPUSD=X): This event loop is already running
+2026-08-07 00:00:50 | core.data_fetcher    | ERROR    | Pocket Option şam alma xətası (USDJPY=X): This event loop is already running
+2026-08-07 00:00:50 | core.data_fetcher    | ERROR    | Pocket Option şam alma xətası (AUDUSD=X): This event loop is already running
+2026-08-07 00:00:51 | httpx                | INFO     | HTTP Request: POST https://api.telegram.org/bot8941505352:AAHsWfhljzdi9hH-pdjzsfA86Ih1YzBEBLA/sendMessage "HTTP/1.1 200 OK"
+2026-08-07 00:00:55 | httpx                | INFO     | HTTP Request: POST https://api.telegram.org/bot8941505352:AAHsWfhljzdi9hH-pdjzsfA86Ih1YzBEBLA/getUpdates "HTTP/1.1 200 OK"
+2026-08-07 00:01:05 | httpx                | INFO     | HTTP Request: POST https://api.telegram.org/bot8941505352:AAHsWfhljzdi9hH-pdjzsfA86Ih1YzBEBLA/getUpdates "HTTP/1.1 200 OK"
+2026-08-07 00:01:05 | pocket.main          | INFO     | 📊 Bazar skan edilir...
+2026-08-07 00:01:15 | httpx                | INFO     | HTTP Request: POST https://api.telegram.org/bot8941505352:AAHsWfhljzdi9hH-pdjzsfA86Ih1YzBEBLA/getUpdates "HTTP/1.1 200 OK"
+2026-08-07 00:01:21 | pocket.main          | INFO     | ℹ️  M1 üçün siqnal tapılmadı
+2026-08-07 00:01:23 | pocket.main          | INFO     | ℹ️  M5 üçün siqnal tapılmadı
+2026-08-07 00:01:25 | pocket.main          | INFO     | ℹ️  M15 üçün siqnal tapılmadı
+2026-08-07 00:01:25 | httpx                | INFO     | HTTP Request: POST https://api.telegram.org/bot8941505352:AAHsWfhljzdi9hH-pdjzsfA86Ih1YzBEBLA/getUpdates "HTTP/1.1 200 OK"
+2026-08-07 00:01:35 | httpx                | INFO     | HTTP Request: POST https://api.telegram.org/bot8941505352:AAHsWfhljzdi9hH-pdjzsfA86Ih1YzBEBLA/getUpdates "HTTP/1.1 200 OK"
+2026-08-07 00:01:46 | httpx                | INFO     | HTTP Request: POST https://api.telegram.org/bot8941505352:AAHsWfhljzdi9hH-pdjzsfA86Ih1YzBEBLA/getUpdates "HTTP/1.1 200 OK"
+2026-08-07 00:01:56 | httpx                | INFO     | HTTP Request: POST https://api.telegram.org/bot8941505352:AAHsWfhljzdi9hH-pdjzsfA86Ih1YzBEBLA/getUpdates "HTTP/1.1 200 OK"
+2026-08-07 00:02:06 | httpx                | INFO     | HTTP Request: POST https://api.telegram.org/bot8941505352:AAHsWfhljzdi9hH-pdjzsfA86Ih1YzBEBLA/getUpdates "HTTP/1.1 200 OK"
+2026-08-07 00:02:16 | httpx                | INFO     | HTTP Request: POST https://api.telegram.org/bot8941505352:AAHsWfhljzdi9hH-pdjzsfA86Ih1YzBEBLA/getUpdates "HTTP/1.1 200 OK"
+2026-08-07 00:02:25 | pocket.main          | INFO     | 📊 Bazar skan edilir...
+2026-08-07 00:02:26 | httpx                | INFO     | HTTP Request: POST https://api.telegram.org/bot8941505352:AAHsWfhljzdi9hH-pdjzsfA86Ih1YzBEBLA/getUpdates "HTTP/1.1 200 OK"
+2026-08-07 00:02:27 | core.data_fetcher    | ERROR    | Pocket Option şam alma xətası (USDJPY_otc): Not connected to PocketOption and reconnection failed
+2026-08-07 00:02:27 | core.data_fetcher    | ERROR    | Pocket Option şam alma xətası (AUDUSD_otc): Not connected to PocketOption and reconnection failed
+2026-08-07 00:02:28 | core.data_fetcher    | ERROR    | Pocket Option şam alma xətası (AUDCAD_otc): Not connected to PocketOption and reconnection failed
