@@ -8,6 +8,8 @@ from .handlers import (start_handler, help_handler, signals_handler, analyze_han
 from .formatters import SignalFormatter
 from telegram import constants
 
+from config import settings
+
 logger = logging.getLogger(__name__)
 
 class TelegramBot:
@@ -15,7 +17,7 @@ class TelegramBot:
         self.signal_engine = signal_engine
         self.token = token
         self.app = None
-        self.data_dir = r"d:\pocket\data"
+        self.data_dir = os.path.join(settings.BASE_DIR, "data")
         self.chat_ids_file = os.path.join(self.data_dir, "chat_ids.json")
         self.chat_ids = set()
         self._load_chat_ids()
@@ -61,7 +63,13 @@ class TelegramBot:
         
     def start(self):
         logger.info("Bot starting...")
-        self.app.run_polling()
+        import asyncio
+        try:
+            loop = asyncio.get_event_loop()
+        except RuntimeError:
+            loop = asyncio.new_event_loop()
+            asyncio.set_event_loop(loop)
+        self.app.run_polling(close_loop=False)
         
     def stop(self):
         logger.info("Bot stopping...")

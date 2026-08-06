@@ -4815,3 +4815,183 @@ telegram.error.NetworkError: httpx.ConnectError:
 2026-08-07 02:33:53 | pocket.main          | INFO     | ℹ️  M15 üçün siqnal tapılmadı
 2026-08-07 02:33:55 | pocket.main          | INFO     | 📊 Bazar skan edilir...
 2026-08-07 02:33:56 | pocket.main          | INFO     | ℹ️  M1 üçün siqnal tapılmadı
+2026-08-07 02:33:57 | pocket.main          | INFO     | ✅ M5 üçün 1 siqnal tapıldı (Seçilən Aktiv: USD/JPY - 50.0%)
+2026-08-07 02:33:59 | pocket.main          | INFO     | ℹ️  M15 üçün siqnal tapılmadı
+2026-08-07 02:34:01 | pocket.main          | INFO     | 📊 Bazar skan edilir...
+2026-08-07 02:34:02 | pocket.main          | INFO     | ℹ️  M1 üçün siqnal tapılmadı
+2026-08-07 02:34:04 | pocket.main          | INFO     | ✅ M5 üçün 1 siqnal tapıldı (Seçilən Aktiv: USD/JPY - 50.0%)
+2026-08-07 02:34:06 | pocket.main          | INFO     | ℹ️  M15 üçün siqnal tapılmadı
+2026-08-07 02:34:08 | pocket.main          | INFO     | 📊 Bazar skan edilir...
+2026-08-07 02:34:10 | pocket.main          | INFO     | ℹ️  M1 üçün siqnal tapılmadı
+2026-08-07 02:34:11 | pocket.main          | INFO     | ✅ M5 üçün 1 siqnal tapıldı (Seçilən Aktiv: USD/JPY - 50.0%)
+2026-08-07 02:34:13 | pocket.main          | INFO     | ℹ️  M15 üçün siqnal tapılmadı
+2026-08-07 02:34:15 | pocket.main          | INFO     | 📊 Bazar skan edilir...
+2026-08-07 02:34:16 | pocket.main          | INFO     | ℹ️  M1 üçün siqnal tapılmadı
+2026-08-07 02:34:18 | pocket.main          | INFO     | ✅ M5 üçün 1 siqnal tapıldı (Seçilən Aktiv: USD/JPY - 50.0%)
+2026-08-07 02:34:20 | pocket.main          | INFO     | ℹ️  M15 üçün siqnal tapılmadı
+2026-08-07 02:34:22 | pocket.main          | INFO     | 📊 Bazar skan edilir...
+2026-08-07 02:34:23 | pocket.main          | INFO     | ℹ️  M1 üçün siqnal tapılmadı
+2026-08-07 02:34:24 | pocket.main          | INFO     | ✅ M5 üçün 1 siqnal tapıldı (Seçilən Aktiv: USD/JPY - 50.0%)
+2026-08-07 02:34:26 | pocket.main          | INFO     | ℹ️  M15 üçün siqnal tapılmadı
+2026-08-07 02:34:28 | pocket.main          | INFO     | 📊 Bazar skan edilir...
+2026-08-07 02:34:29 | pocket.main          | INFO     | ℹ️  M1 üçün siqnal tapılmadı
+2026-08-07 02:34:31 | pocket.main          | INFO     | ✅ M5 üçün 1 siqnal tapıldı (Seçilən Aktiv: USD/JPY - 50.0%)
+2026-08-07 02:34:33 | pocket.main          | INFO     | ℹ️  M15 üçün siqnal tapılmadı
+2026-08-07 02:34:35 | pocket.main          | INFO     | 📊 Bazar skan edilir...
+2026-08-07 02:34:36 | pocket.main          | INFO     | ℹ️  M1 üçün siqnal tapılmadı
+2026-08-07 02:34:37 | pocket.main          | INFO     | ✅ M5 üçün 1 siqnal tapıldı (Seçilən Aktiv: USD/JPY - 50.0%)
+2026-08-07 02:34:39 | pocket.main          | INFO     | ℹ️  M15 üçün siqnal tapılmadı
+2026-08-07 02:34:41 | pocket.main          | INFO     | 📊 Bazar skan edilir...
+2026-08-07 02:34:42 | pocket.main          | INFO     | ℹ️  M1 üçün siqnal tapılmadı
+2026-08-07 02:34:44 | pocket.main          | INFO     | ✅ M5 üçün 1 siqnal tapıldı (Seçilən Aktiv: USD/JPY - 50.0%)
+2026-08-07 02:34:46 | pocket.main          | INFO     | ℹ️  M15 üçün siqnal tapılmadı
+2026-08-07 02:34:48 | pocket.main          | INFO     | 📊 Bazar skan edilir...
+2026-08-07 02:34:49 | pocket.main          | INFO     | ℹ️  M1 üçün siqnal tapılmadı
+2026-08-07 02:34:50 | pocket.main          | INFO     | ✅ M5 üçün 1 siqnal tapıldı (Seçilən Aktiv: USD/JPY - 50.0%)
+2026-08-07 02:34:52 | pocket.main          | INFO     | ℹ️  M15 üçün siqnal tapılmadı
+2026-08-07 02:34:54 | pocket.main          | INFO     | 📊 Bazar skan edilir...
+2026-08-07 02:34:55 | pocket.main          | INFO     | ℹ️  M1 üçün siqnal tapılmadı
+2026-08-07 02:34:57 | pocket.main          | INFO     | ✅ M5 üçün 1 siqnal tapıldı (Seçilən Aktiv: USD/JPY - 50.0%)
+2026-08-07 02:34:59 | pocket.main          | INFO     | ℹ️  M15 üçün siqnal tapılmadı
+2026-08-07 02:35:01 | pocket.main          | INFO     | 📊 Bazar skan edilir...
+2026-08-07 02:35:02 | pocket.main          | INFO     | ℹ️  M1 üçün siqnal tapılmadı
+2026-08-07 02:35:04 | pocket.main          | INFO     | ✅ M5 üçün 1 siqnal tapıldı (Seçilən Aktiv: USD/JPY - 50.0%)
+2026-08-07 02:35:06 | pocket.main          | INFO     | ℹ️  M15 üçün siqnal tapılmadı
+2026-08-07 02:35:08 | pocket.main          | INFO     | 📊 Bazar skan edilir...
+2026-08-07 02:35:09 | pocket.main          | INFO     | ℹ️  M1 üçün siqnal tapılmadı
+2026-08-07 02:35:10 | pocket.main          | INFO     | ℹ️  M5 üçün siqnal tapılmadı
+2026-08-07 02:35:12 | pocket.main          | INFO     | ℹ️  M15 üçün siqnal tapılmadı
+2026-08-07 02:35:14 | pocket.main          | INFO     | 📊 Bazar skan edilir...
+2026-08-07 02:35:15 | pocket.main          | INFO     | ℹ️  M1 üçün siqnal tapılmadı
+2026-08-07 02:35:17 | pocket.main          | INFO     | ✅ M5 üçün 1 siqnal tapıldı (Seçilən Aktiv: USD/JPY - 50.0%)
+2026-08-07 02:35:19 | pocket.main          | INFO     | ℹ️  M15 üçün siqnal tapılmadı
+2026-08-07 02:35:21 | pocket.main          | INFO     | 📊 Bazar skan edilir...
+2026-08-07 02:35:22 | pocket.main          | INFO     | ℹ️  M1 üçün siqnal tapılmadı
+2026-08-07 02:35:23 | pocket.main          | INFO     | ✅ M5 üçün 1 siqnal tapıldı (Seçilən Aktiv: USD/JPY - 50.0%)
+2026-08-07 02:35:25 | pocket.main          | INFO     | ℹ️  M15 üçün siqnal tapılmadı
+2026-08-07 02:35:27 | pocket.main          | INFO     | 📊 Bazar skan edilir...
+2026-08-07 02:35:29 | pocket.main          | INFO     | ℹ️  M1 üçün siqnal tapılmadı
+2026-08-07 02:35:30 | pocket.main          | INFO     | ✅ M5 üçün 1 siqnal tapıldı (Seçilən Aktiv: USD/JPY - 50.0%)
+2026-08-07 02:35:32 | pocket.main          | INFO     | ℹ️  M15 üçün siqnal tapılmadı
+2026-08-07 02:35:34 | pocket.main          | INFO     | 📊 Bazar skan edilir...
+2026-08-07 02:35:35 | pocket.main          | INFO     | ℹ️  M1 üçün siqnal tapılmadı
+2026-08-07 02:35:37 | pocket.main          | INFO     | ✅ M5 üçün 1 siqnal tapıldı (Seçilən Aktiv: USD/JPY - 50.0%)
+2026-08-07 02:35:39 | pocket.main          | INFO     | ℹ️  M15 üçün siqnal tapılmadı
+2026-08-07 02:35:41 | pocket.main          | INFO     | 📊 Bazar skan edilir...
+2026-08-07 02:35:42 | pocket.main          | INFO     | ℹ️  M1 üçün siqnal tapılmadı
+2026-08-07 02:35:44 | pocket.main          | INFO     | ✅ M5 üçün 1 siqnal tapıldı (Seçilən Aktiv: USD/JPY - 50.0%)
+2026-08-07 02:35:47 | pocket.main          | INFO     | ℹ️  M15 üçün siqnal tapılmadı
+2026-08-07 02:35:49 | pocket.main          | INFO     | 📊 Bazar skan edilir...
+2026-08-07 02:35:50 | pocket.main          | INFO     | ℹ️  M1 üçün siqnal tapılmadı
+2026-08-07 02:35:52 | pocket.main          | INFO     | ✅ M5 üçün 1 siqnal tapıldı (Seçilən Aktiv: USD/JPY - 50.0%)
+2026-08-07 02:35:54 | pocket.main          | INFO     | ℹ️  M15 üçün siqnal tapılmadı
+2026-08-07 02:35:56 | pocket.main          | INFO     | 📊 Bazar skan edilir...
+2026-08-07 02:35:57 | pocket.main          | INFO     | ℹ️  M1 üçün siqnal tapılmadı
+2026-08-07 02:35:58 | pocket.main          | INFO     | ℹ️  M5 üçün siqnal tapılmadı
+2026-08-07 02:36:00 | pocket.main          | INFO     | ℹ️  M15 üçün siqnal tapılmadı
+2026-08-07 02:36:02 | pocket.main          | INFO     | 📊 Bazar skan edilir...
+2026-08-07 02:36:03 | pocket.main          | INFO     | ℹ️  M1 üçün siqnal tapılmadı
+2026-08-07 02:36:05 | pocket.main          | INFO     | ℹ️  M5 üçün siqnal tapılmadı
+2026-08-07 02:36:06 | pocket.main          | INFO     | ℹ️  M15 üçün siqnal tapılmadı
+2026-08-07 02:36:08 | pocket.main          | INFO     | 📊 Bazar skan edilir...
+2026-08-07 02:36:10 | pocket.main          | INFO     | ℹ️  M1 üçün siqnal tapılmadı
+2026-08-07 02:36:11 | pocket.main          | INFO     | ℹ️  M5 üçün siqnal tapılmadı
+2026-08-07 02:36:13 | pocket.main          | INFO     | ℹ️  M15 üçün siqnal tapılmadı
+2026-08-07 02:36:15 | pocket.main          | INFO     | 📊 Bazar skan edilir...
+2026-08-07 02:36:16 | pocket.main          | INFO     | ℹ️  M1 üçün siqnal tapılmadı
+2026-08-07 02:36:18 | pocket.main          | INFO     | ℹ️  M5 üçün siqnal tapılmadı
+2026-08-07 02:36:20 | pocket.main          | INFO     | ℹ️  M15 üçün siqnal tapılmadı
+2026-08-07 02:36:22 | pocket.main          | INFO     | 📊 Bazar skan edilir...
+2026-08-07 02:36:23 | pocket.main          | INFO     | ℹ️  M1 üçün siqnal tapılmadı
+2026-08-07 02:36:25 | pocket.main          | INFO     | ℹ️  M5 üçün siqnal tapılmadı
+2026-08-07 02:36:26 | pocket.main          | INFO     | ℹ️  M15 üçün siqnal tapılmadı
+2026-08-07 02:36:28 | pocket.main          | INFO     | 📊 Bazar skan edilir...
+2026-08-07 02:36:30 | pocket.main          | INFO     | ℹ️  M1 üçün siqnal tapılmadı
+2026-08-07 02:36:31 | pocket.main          | INFO     | ℹ️  M5 üçün siqnal tapılmadı
+2026-08-07 02:36:32 | pocket.main          | INFO     | ℹ️  M15 üçün siqnal tapılmadı
+2026-08-07 02:36:35 | pocket.main          | INFO     | 📊 Bazar skan edilir...
+2026-08-07 02:36:36 | pocket.main          | INFO     | ℹ️  M1 üçün siqnal tapılmadı
+2026-08-07 02:36:37 | pocket.main          | INFO     | ℹ️  M5 üçün siqnal tapılmadı
+2026-08-07 02:36:39 | pocket.main          | INFO     | ℹ️  M15 üçün siqnal tapılmadı
+2026-08-07 02:36:41 | pocket.main          | INFO     | 📊 Bazar skan edilir...
+2026-08-07 02:36:42 | pocket.main          | INFO     | ℹ️  M1 üçün siqnal tapılmadı
+2026-08-07 02:36:44 | pocket.main          | INFO     | ℹ️  M5 üçün siqnal tapılmadı
+2026-08-07 02:36:46 | pocket.main          | INFO     | ℹ️  M15 üçün siqnal tapılmadı
+2026-08-07 02:36:48 | pocket.main          | INFO     | 📊 Bazar skan edilir...
+2026-08-07 02:36:49 | pocket.main          | INFO     | ℹ️  M1 üçün siqnal tapılmadı
+2026-08-07 02:36:51 | pocket.main          | INFO     | ℹ️  M5 üçün siqnal tapılmadı
+2026-08-07 02:36:52 | pocket.main          | INFO     | ℹ️  M15 üçün siqnal tapılmadı
+2026-08-07 02:36:54 | pocket.main          | INFO     | 📊 Bazar skan edilir...
+2026-08-07 02:36:56 | pocket.main          | INFO     | ℹ️  M1 üçün siqnal tapılmadı
+2026-08-07 02:36:57 | pocket.main          | INFO     | ℹ️  M5 üçün siqnal tapılmadı
+2026-08-07 02:36:59 | pocket.main          | INFO     | ℹ️  M15 üçün siqnal tapılmadı
+2026-08-07 02:37:01 | pocket.main          | INFO     | 📊 Bazar skan edilir...
+2026-08-07 02:37:02 | pocket.main          | INFO     | ℹ️  M1 üçün siqnal tapılmadı
+2026-08-07 02:37:04 | pocket.main          | INFO     | ℹ️  M5 üçün siqnal tapılmadı
+2026-08-07 02:37:05 | pocket.main          | INFO     | ℹ️  M15 üçün siqnal tapılmadı
+2026-08-07 02:37:07 | pocket.main          | INFO     | 📊 Bazar skan edilir...
+2026-08-07 02:37:09 | pocket.main          | INFO     | ℹ️  M1 üçün siqnal tapılmadı
+2026-08-07 02:37:10 | pocket.main          | INFO     | ℹ️  M5 üçün siqnal tapılmadı
+2026-08-07 02:37:12 | pocket.main          | INFO     | ℹ️  M15 üçün siqnal tapılmadı
+2026-08-07 02:37:14 | pocket.main          | INFO     | 📊 Bazar skan edilir...
+2026-08-07 02:37:15 | pocket.main          | INFO     | ℹ️  M1 üçün siqnal tapılmadı
+2026-08-07 02:37:17 | pocket.main          | INFO     | ℹ️  M5 üçün siqnal tapılmadı
+2026-08-07 02:37:18 | pocket.main          | INFO     | ℹ️  M15 üçün siqnal tapılmadı
+2026-08-07 02:37:20 | pocket.main          | INFO     | 📊 Bazar skan edilir...
+2026-08-07 02:37:22 | pocket.main          | INFO     | ℹ️  M1 üçün siqnal tapılmadı
+2026-08-07 02:37:23 | pocket.main          | INFO     | ℹ️  M5 üçün siqnal tapılmadı
+2026-08-07 02:37:24 | pocket.main          | INFO     | ℹ️  M15 üçün siqnal tapılmadı
+2026-08-07 02:37:26 | pocket.main          | INFO     | 📊 Bazar skan edilir...
+2026-08-07 02:37:28 | pocket.main          | INFO     | ℹ️  M1 üçün siqnal tapılmadı
+2026-08-07 02:37:29 | pocket.main          | INFO     | ℹ️  M5 üçün siqnal tapılmadı
+2026-08-07 02:37:31 | pocket.main          | INFO     | ℹ️  M15 üçün siqnal tapılmadı
+2026-08-07 02:37:33 | pocket.main          | INFO     | 📊 Bazar skan edilir...
+2026-08-07 02:37:34 | pocket.main          | INFO     | ℹ️  M1 üçün siqnal tapılmadı
+2026-08-07 02:37:35 | pocket.main          | INFO     | ℹ️  M5 üçün siqnal tapılmadı
+2026-08-07 02:37:37 | pocket.main          | INFO     | ℹ️  M15 üçün siqnal tapılmadı
+2026-08-07 02:37:39 | pocket.main          | INFO     | 📊 Bazar skan edilir...
+2026-08-07 02:37:40 | pocket.main          | INFO     | ℹ️  M1 üçün siqnal tapılmadı
+2026-08-07 02:37:41 | pocket.main          | INFO     | ℹ️  M5 üçün siqnal tapılmadı
+2026-08-07 02:37:43 | pocket.main          | INFO     | ℹ️  M15 üçün siqnal tapılmadı
+2026-08-07 02:37:45 | pocket.main          | INFO     | 📊 Bazar skan edilir...
+2026-08-07 02:37:46 | pocket.main          | INFO     | ℹ️  M1 üçün siqnal tapılmadı
+2026-08-07 02:37:47 | pocket.main          | INFO     | ℹ️  M5 üçün siqnal tapılmadı
+2026-08-07 02:37:49 | pocket.main          | INFO     | ℹ️  M15 üçün siqnal tapılmadı
+2026-08-07 02:37:51 | pocket.main          | INFO     | 📊 Bazar skan edilir...
+2026-08-07 02:37:52 | pocket.main          | INFO     | ℹ️  M1 üçün siqnal tapılmadı
+2026-08-07 02:37:54 | pocket.main          | INFO     | ℹ️  M5 üçün siqnal tapılmadı
+2026-08-07 02:37:55 | pocket.main          | INFO     | ℹ️  M15 üçün siqnal tapılmadı
+2026-08-07 02:37:57 | pocket.main          | INFO     | 📊 Bazar skan edilir...
+2026-08-07 02:37:59 | pocket.main          | INFO     | ℹ️  M1 üçün siqnal tapılmadı
+2026-08-07 02:38:00 | pocket.main          | INFO     | ℹ️  M5 üçün siqnal tapılmadı
+2026-08-07 02:38:02 | pocket.main          | INFO     | ℹ️  M15 üçün siqnal tapılmadı
+2026-08-07 02:38:04 | pocket.main          | INFO     | 📊 Bazar skan edilir...
+2026-08-07 02:38:06 | pocket.main          | INFO     | ℹ️  M1 üçün siqnal tapılmadı
+2026-08-07 02:38:08 | pocket.main          | INFO     | ℹ️  M5 üçün siqnal tapılmadı
+2026-08-07 02:38:10 | pocket.main          | INFO     | ℹ️  M15 üçün siqnal tapılmadı
+2026-08-07 02:38:12 | pocket.main          | INFO     | 📊 Bazar skan edilir...
+2026-08-07 02:38:13 | pocket.main          | INFO     | ℹ️  M1 üçün siqnal tapılmadı
+2026-08-07 02:38:15 | pocket.main          | INFO     | ℹ️  M5 üçün siqnal tapılmadı
+2026-08-07 02:38:17 | pocket.main          | INFO     | ℹ️  M15 üçün siqnal tapılmadı
+2026-08-07 02:38:19 | pocket.main          | INFO     | 📊 Bazar skan edilir...
+2026-08-07 02:38:20 | pocket.main          | INFO     | ℹ️  M1 üçün siqnal tapılmadı
+2026-08-07 02:38:21 | pocket.main          | INFO     | ℹ️  M5 üçün siqnal tapılmadı
+2026-08-07 02:38:23 | pocket.main          | INFO     | ℹ️  M15 üçün siqnal tapılmadı
+2026-08-07 02:38:25 | pocket.main          | INFO     | 📊 Bazar skan edilir...
+2026-08-07 02:38:26 | pocket.main          | INFO     | ℹ️  M1 üçün siqnal tapılmadı
+2026-08-07 02:38:27 | pocket.main          | INFO     | ℹ️  M5 üçün siqnal tapılmadı
+2026-08-07 02:38:29 | pocket.main          | INFO     | ℹ️  M15 üçün siqnal tapılmadı
+2026-08-07 02:38:31 | pocket.main          | INFO     | 📊 Bazar skan edilir...
+2026-08-07 02:38:32 | pocket.main          | INFO     | ℹ️  M1 üçün siqnal tapılmadı
+2026-08-07 02:38:34 | pocket.main          | INFO     | ℹ️  M5 üçün siqnal tapılmadı
+2026-08-07 02:38:35 | pocket.main          | INFO     | ℹ️  M15 üçün siqnal tapılmadı
+2026-08-07 02:38:37 | pocket.main          | INFO     | 📊 Bazar skan edilir...
+2026-08-07 02:38:39 | pocket.main          | INFO     | ℹ️  M1 üçün siqnal tapılmadı
+2026-08-07 02:38:40 | pocket.main          | INFO     | ℹ️  M5 üçün siqnal tapılmadı
+2026-08-07 02:38:42 | pocket.main          | INFO     | ℹ️  M15 üçün siqnal tapılmadı
+2026-08-07 02:38:44 | pocket.main          | INFO     | 📊 Bazar skan edilir...
+2026-08-07 02:38:45 | pocket.main          | INFO     | ℹ️  M1 üçün siqnal tapılmadı
+2026-08-07 02:38:47 | pocket.main          | INFO     | ℹ️  M5 üçün siqnal tapılmadı
+2026-08-07 02:38:48 | pocket.main          | INFO     | ℹ️  M15 üçün siqnal tapılmadı
+2026-08-07 02:38:50 | pocket.main          | INFO     | 📊 Bazar skan edilir...
+2026-08-07 02:38:51 | pocket.main          | INFO     | ℹ️  M1 üçün siqnal tapılmadı

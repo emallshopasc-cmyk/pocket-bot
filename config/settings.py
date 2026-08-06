@@ -60,7 +60,7 @@ SIGNAL_STRONG_THRESHOLD = 75
 SIGNAL_MEDIUM_THRESHOLD = 50  # Tez-tez və sürətli 5-10s siqnallar üçün hədd
 
 WEB_HOST = '0.0.0.0'
-WEB_PORT = 5000
+WEB_PORT = int(os.getenv('PORT', 5000))
 
 SCAN_INTERVAL_SECONDS = 2  # Hər 2 saniyədən bir ildırım skan!
 TARGET_WIN_COUNT = 5        # 5 Qazanc Hədəfi!
