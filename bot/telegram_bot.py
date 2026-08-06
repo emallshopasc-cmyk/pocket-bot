@@ -63,7 +63,7 @@ class TelegramBot:
         
     def start(self):
         logger.info("Bot starting...")
-        self.app.run_polling()
+        self.app.run_polling(stop_signals=None)
         
     def stop(self):
         logger.info("Bot stopping...")
