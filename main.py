@@ -285,26 +285,32 @@ def main():
     scanner_thread.start()
     logger.info("🔍 Martingale Skaneri başladı")
     
+    web_thread = threading.Thread(
+        target=run_web_dashboard,
+        args=(signal_engine, po_trader),
+        daemon=True,
+        name="WebDashboard"
+    )
+    web_thread.start()
+    logger.info(f"🌐 Web Dashboard thread başladı: http://0.0.0.0:{settings.WEB_PORT}")
+
     if settings.TELEGRAM_BOT_TOKEN:
-        bot_thread = threading.Thread(
-            target=run_telegram_bot,
-            args=(signal_engine, po_trader),
-            daemon=True,
-            name="TelegramBot"
-        )
-        bot_thread.start()
-        logger.info("🤖 Telegram Bot thread-i başladı")
+        logger.info("🤖 Telegram Bot əsas thread-də başladılır...")
+        try:
+            run_telegram_bot(signal_engine, po_trader)
+        except (KeyboardInterrupt, SystemExit):
+            logger.info("⏹️  Klaviatura ilə dayandırıldı")
+        finally:
+            shutdown_event.set()
+            logger.info("👋 Sistem söndürüldü.")
     else:
-        logger.warning("⚠️  Telegram Bot Token yoxdur. Bot başlamadı.")
-    
-    logger.info(f"🌐 Web Dashboard: http://localhost:{settings.WEB_PORT}")
-    try:
-        run_web_dashboard(signal_engine, po_trader)
-    except KeyboardInterrupt:
-        logger.info("⏹️  Klaviatura ilə dayandırıldı")
-    finally:
-        shutdown_event.set()
-        logger.info("👋 Sistem söndürüldü.")
+        logger.warning("⚠️  Telegram Bot Token yoxdur. Web Dashboard əsas thread-də qalır.")
+        try:
+            shutdown_event.wait()
+        except (KeyboardInterrupt, SystemExit):
+            pass
+        finally:
+            shutdown_event.set()
 
 
 if __name__ == '__main__':

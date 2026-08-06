@@ -63,13 +63,7 @@ class TelegramBot:
         
     def start(self):
         logger.info("Bot starting...")
-        import asyncio
-        try:
-            loop = asyncio.get_event_loop()
-        except RuntimeError:
-            loop = asyncio.new_event_loop()
-            asyncio.set_event_loop(loop)
-        self.app.run_polling(close_loop=False)
+        self.app.run_polling()
         
     def stop(self):
         logger.info("Bot stopping...")
