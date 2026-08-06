@@ -150,6 +150,7 @@ class PocketOptionTrader:
 
         step = 1
         sequence_won = False
+        retry_count = 0
 
         while step <= settings.MARTINGALE_MAX_STEPS:
             amount = self.martingale.get_current_amount()
@@ -168,24 +169,31 @@ class PocketOptionTrader:
 
             logger.info(f"🎯 Addım {step}/{settings.MARTINGALE_MAX_STEPS}: {display_name} - {action.upper()} ${amount}")
 
+            # Əmri icra et və Pocket Option hesabında real balans dəyişikliyini gözlə
+            trade_result = await self._place_single_trade(po_asset, action, amount, duration, signal)
+
+            if trade_result['outcome'] == 'RETRY':
+                retry_count += 1
+                logger.warning(f"⚠️ Bağlantı xətasına görə Addım {step} təkrarlanacaq (Cəhd {retry_count}/3).")
+                if retry_count >= 3:
+                    self.is_auto_trading = False
+                    logger.error("🛑 3 cəhddən sonra Pocket Option-a bağlanmaq mümkün olmadı. Avto-ticarət dayandırıldı.")
+                    if callback_notify:
+                        await callback_notify("🛑 <b>Pocket Option bağlantısı kəsildi.</b>\n"
+                                              "Avto-ticarət təhlükəsizlik üçün DAYANDIRILDI.\n"
+                                              "Yenidən başlatmaq üçün <b>▶️ Avto-Ticarəti Başlat</b> düyməsinə klikləyin.")
+                    break
+                await asyncio.sleep(3)
+                continue
+
+            retry_count = 0  # Uğurlu cəhddən sonra sıfırla
+
             if callback_notify:
                 await callback_notify(f"⚡ <b>TURBO TİCARƏT İCRA EDİLİR</b> (Addım {step}/{settings.MARTINGALE_MAX_STEPS})\n"
                                       f"💱 <b>Aktiv:</b> {display_name}\n"
                                       f"📊 <b>Yön:</b> {'⬆️ CALL (BUY)' if action == 'call' else '⬇️ PUT (SELL)'}\n"
                                       f"💰 <b>Məbləğ:</b> ${amount}\n"
                                       f"⏱️ <b>Müddət:</b> {duration} Saniyə (Turbo S10)")
-
-            # Əmri icra et və Pocket Option hesabında real balans dəyişikliyini gözlə
-            trade_result = await self._place_single_trade(po_asset, action, amount, duration, signal)
-
-            if trade_result['outcome'] == 'RETRY':
-                logger.warning(f"⚠️ Bağlantı xətasına görə Addım {step} təkrarlanacaq (Martingale addımı ARTIRILMIR).")
-                now_t = time.time()
-                if callback_notify and (now_t - getattr(self, '_last_retry_notify', 0) > 30):
-                    self._last_retry_notify = now_t
-                    await callback_notify("⚠️ <b>Pocket Option bağlantısı yenilənir...</b> Ticarət avtomatik gözləmədədir.")
-                await asyncio.sleep(3)
-                continue
 
             trade_info['result'] = trade_result['outcome']
             trade_info['profit'] = trade_result['profit']
