@@ -23,5 +23,7 @@ eventlet>=0.35.0
 # Planlaşdırıcı
 APScheduler>=3.10.0
 
-# HTTP sorğular
+# HTTP və WebSocket sorğular
 requests>=2.31.0
+websockets>=11.0.3
+websocket-client>=1.6.0
