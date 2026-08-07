@@ -839,8 +839,10 @@ class AsyncPocketOptionClient:
 
     async def _send_order(self, order: Order) -> None:
         """Send order to server"""
-        # Format asset name with # prefix if not already present
+        # Format asset name with # prefix if not already present for OTC assets
         asset_name = order.asset
+        if not asset_name.startswith('#') and ('_otc' in asset_name or asset_name.endswith('_otc')):
+            asset_name = f"#{asset_name}"
 
         # Create the message in the correct PocketOption format
         message = f'42["openOrder",{{"asset":"{asset_name}","amount":{order.amount},"action":"{order.direction.value}","isDemo":{1 if self.is_demo else 0},"requestId":"{order.request_id}","optionType":100,"time":{order.duration}}}]'

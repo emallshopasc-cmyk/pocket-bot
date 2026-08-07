@@ -151,9 +151,11 @@ class PocketOptionTrader:
         step = 1
         sequence_won = False
         retry_count = 0
+        sequence_spent = 0.0
 
         while step <= settings.MARTINGALE_MAX_STEPS:
             amount = self.martingale.get_current_amount()
+            sequence_spent += amount
             trade_info = {
                 'symbol': symbol,
                 'display_name': display_name,
@@ -204,6 +206,12 @@ class PocketOptionTrader:
                 sequence_won = True
                 self.total_wins += 1
                 self.martingale.on_win()
+                
+                sequence_net = round(trade_result['profit'], 2)
+                getattr(self, 'session_net_profit', 0.0)
+                self.session_net_profit = getattr(self, 'session_net_profit', 0.0) + sequence_net
+                self.session_trades_count = getattr(self, 'session_trades_count', 0) + 1
+
                 msg = (f"✅ <b>TİCARƏT QAZANDI!</b> 🎉 (Hədəf: {self.total_wins}/{getattr(settings, 'TARGET_WIN_COUNT', 5)})\n"
                        f"💱 {display_name} (Addım {step})\n"
                        f"💵 Qazanc: +${trade_result['profit']:.2f}")
@@ -211,10 +219,21 @@ class PocketOptionTrader:
                 if callback_notify:
                     await callback_notify(msg)
                 
+                # Sonda ümumi xeyr/ziyan xülasəsini yaz
+                summary_msg = (f"📊 <b>ƏMR YEKUNU (Xalis Qazanc)</b>\n"
+                               f"────────────────────\n"
+                               f"🔢 <b>Girilən Addım Sayı:</b> {step}\n"
+                               f"💵 <b>Bu Əmrin Xeyri:</b> +${sequence_net:.2f}\n"
+                               f"📈 <b>Sessiya Ümumi Xalis Qazancı:</b> {'+' if self.session_net_profit >= 0 else ''}${self.session_net_profit:.2f}\n"
+                               f"🏆 <b>Uğurlu Hədəf:</b> {self.total_wins}/{getattr(settings, 'TARGET_WIN_COUNT', 5)}")
+                if callback_notify:
+                    await callback_notify(summary_msg)
+
                 target_count = getattr(settings, 'TARGET_WIN_COUNT', 5)
                 if self.total_wins >= target_count:
                     target_msg = (f"🏆🎉 <b>{target_count} DƏFƏ QAZANC HƏDƏFİ TAMAMLANDI!</b> 🎉🏆\n\n"
                                   f"✨ Uğurla {self.total_wins} ticarət qazanıldı!\n"
+                                  f"💵 <b>YEKUN ÜMUMİ QAZANC:</b> +${self.session_net_profit:.2f}\n"
                                   f"💰 Martingale mühərriki tapşırığı mükəmməl icra etdi.")
                     if callback_notify:
                         await callback_notify(target_msg)
@@ -238,7 +257,21 @@ class PocketOptionTrader:
                 else:
                     logger.error(f"🛑 Maksimum Martingale addımına ({settings.MARTINGALE_MAX_STEPS}) çatıldı. Sıfırlanır.")
                     self.martingale.current_step = 1
+                    
+                    sequence_net = round(-sequence_spent, 2)
+                    self.session_net_profit = getattr(self, 'session_net_profit', 0.0) + sequence_net
+                    self.session_trades_count = getattr(self, 'session_trades_count', 0) + 1
+                    
+                    summary_msg = (f"🔻 <b>ƏMR YEKUNU (Ziyan Qeydi)</b>\n"
+                                   f"────────────────────\n"
+                                   f"🔢 <b>Bütün Addımlar İcra Edildi:</b> {step}/{settings.MARTINGALE_MAX_STEPS}\n"
+                                   f"💸 <b>Bu Əmrin Ümumi Ziyanı:</b> -${sequence_spent:.2f}\n"
+                                   f"📉 <b>Sessiya Ümumi Xalis Qazancı/Ziyanı:</b> {'+' if self.session_net_profit >= 0 else ''}${self.session_net_profit:.2f}")
+                    if callback_notify:
+                        await callback_notify(summary_msg)
                     break
+
+        return sequence_won
 
         return sequence_won
 
